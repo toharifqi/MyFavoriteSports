@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Favorite Sports</string>
+    <string name="title_home">All Sports</string>
+    <string name="title_favorite">Favorite Sports</string>
+    <string name="dummy_desc">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</string>
+    <string name="dummy_title">Football</string>
+    <string name="img_description">this is image</string>
+    <string name="dummy_format">TeamVsTeam</string>
+    <string name="dummy_date">31 May 2021</string>
+    <string name="dummy_greeting">%1$s, Sports Fan!</string>
+
+
+</resources>

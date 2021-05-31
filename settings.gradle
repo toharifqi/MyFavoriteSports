@@ -1,0 +1,2 @@
+rootProject.name = "My Favorite Sports"
+include ':app'
