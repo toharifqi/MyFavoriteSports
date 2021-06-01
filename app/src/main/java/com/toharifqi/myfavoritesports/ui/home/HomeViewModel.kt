@@ -3,11 +3,9 @@ package com.toharifqi.myfavoritesports.ui.home
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.asLiveData
+import com.toharifqi.myfavoritesports.core.domain.usecase.SportUseCase
 
-class HomeViewModel : ViewModel() {
-
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
-    }
-    val text: LiveData<String> = _text
+class HomeViewModel(sportUseCase: SportUseCase) : ViewModel() {
+    val sports = sportUseCase.getAllSports().asLiveData()
 }

@@ -1,2 +1,4 @@
 rootProject.name = "My Favorite Sports"
 include ':app'
+include ':core'
+include ':favorite'

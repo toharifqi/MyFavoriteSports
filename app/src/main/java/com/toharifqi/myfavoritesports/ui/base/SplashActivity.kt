@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
+import androidx.core.content.ContextCompat
 import com.toharifqi.myfavoritesports.R
 import com.toharifqi.myfavoritesports.databinding.ActivitySplashBinding
 
@@ -24,7 +25,7 @@ class SplashActivity : AppCompatActivity(), Animation.AnimationListener {
         binding.mainIcon.visibility = View.VISIBLE
         binding.mainIcon.startAnimation(animFadeIn)
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            window.navigationBarColor = ContextCompat.getColor(context, R.color.title_text_color)
+            window.navigationBarColor = ContextCompat.getColor(this@SplashActivity, R.color.title_text_color)
         }
     }
 
