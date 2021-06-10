@@ -69,7 +69,6 @@ class FavoriteFragment : Fragment() {
         val tz: TimeZone = TimeZone.getTimeZone("Asia/Jakarta")
         tz.getDisplayName(false, TimeZone.SHORT, Locale.ENGLISH)
         df.setTimeZone(tz)
-        val formattedDate: String = df.format(c)
 
         @SuppressLint("SimpleDateFormat") val dateFormat: DateFormat = SimpleDateFormat("k")
         val greeting: Int = java.lang.String.valueOf(dateFormat.format(c)).toInt()
