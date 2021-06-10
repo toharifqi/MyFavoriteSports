@@ -1,8 +1,8 @@
 # MyFavoriteSports
 
-![Home Screen](screenshots/home.jpg "Home")
-![Detail Screen](screenshots/detail.jpg "Sport Detail")
-![Favorite Screen](screenshots/favorite.jpg "Favorite Screen")
+![Home Screen](screenshot/home.jpg "Home")
+![Detail Screen](screenshot/detail.jpg "Sport Detail")
+![Favorite Screen](screenshot/favoriteempty.jpg "Favorite Screen")
 
 What I implemented in this app:
 - Continuous Integration Tool: CircleCi 
