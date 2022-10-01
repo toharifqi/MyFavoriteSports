@@ -14,5 +14,3 @@ What I implemented in this app:
 - Leak memory checker: LeakCanary
 - Security: database encryption (using SQLCipher), certificate pinning for server connection (using OkHttp SHA256 certificate pinner), obfuscation (using Proguard)
 - API: https://thesportsdb.com
-
-Latest update on branch: capstone_final
